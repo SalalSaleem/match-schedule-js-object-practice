@@ -1,0 +1,74 @@
+body div{
+    cursor: pointer;
+}
+
+#header {
+    color: white;
+    background: darkblue;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#bottom{
+    display: flex;
+    justify-content: center;
+}
+
+#bottom div{
+    margin: 0px 20px;
+}
+
+#bottom div:hover{
+    border-bottom: 3px solid white;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    border-bottom: 1px solid grey;
+    padding-bottom: 7px;
+    background: whitesmoke;
+    padding-left: 25px;
+    padding: 10px;
+}
+
+.matches-box{
+    padding: 20px;
+    display: flex;
+    background: whitesmoke;
+    column-gap: 25px;
+}
+
+.matches-box div{
+    margin: 5px;
+}
+
+.matches-box .group{
+    display: flex;
+    font-size: 13px;
+    opacity: 0.6;
+    justify-content: space-between;
+
+}
+.matches-box .team1{
+    display: flex;
+    /* margin: 5px; */
+    justify-content: space-between;
+}
+
+.matches-box .team2{
+    display: flex;
+    /* margin: 5px; */
+    justify-content: space-between;
+}
+
+.matches-box .result{
+    display: flex;  
+    justify-content: space-between;
+}
